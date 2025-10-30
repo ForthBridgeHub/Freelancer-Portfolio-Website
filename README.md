@@ -24,9 +24,9 @@ freelancer-portfolio/
 ├── projects.html
 ├── contact.html
 ├── js/
-│   └── main.js
+│ └── main.js
 └── assets/
-    └── profile.jpg (any placeholder image)
+└── profile.jpg
 
 
 ---
