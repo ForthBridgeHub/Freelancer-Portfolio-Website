@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-blue-600">MyPortfolio</h1>
+        <ul class="flex gap-6">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="text-blue-600">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <main class="flex-1 max-w-5xl mx-auto py-12 px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+      <div class="flex flex-col md:flex-row items-center gap-10">
+        <img src="assets/profile.jpg" alt="Profile" class="w-48 h-48 rounded-full object-cover shadow-md" />
+        <div>
+          <p class="mb-4">
+            Hello! I’m Jane Doe, a passionate frontend developer who loves creating beautiful, user-friendly websites.
+            I specialize in HTML, CSS, JavaScript, and Tailwind CSS.
+          </p>
+          <h3 class="font-semibold text-lg mb-2">Skills:</h3>
+          <ul class="grid grid-cols-2 gap-2 text-sm">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-center py-4 text-sm text-gray-500">
+      © 2025 Jane Doe. All rights reserved.
+    </footer>
+  </body>
+</html>
